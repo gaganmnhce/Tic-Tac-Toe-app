@@ -9,10 +9,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     boolean gameActive = true;
-    // Player representation
-    // 0 - X
-    // 1 - O
-    //2- null
     int activePlayer = 0;
     int[] gameState = {2, 2 , 2, 2, 2, 2, 2, 2, 2};
 
@@ -59,11 +55,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }
-
-
-
-
-
     }
 
     private void gameReset(View view) {
